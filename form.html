@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pedaftaran Member Perpustakaan</title>
+    <style type="text/css">
+    body{
+        margin: 0;
+        padding: 0;
+    }*
+    {
+        box-sizing: border-box;
+    }
+    form{
+        padding: 1em;
+        background: lightgray;
+        border: 1px solid silver;
+        margin-top: 2rem;
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1em;
+    }
+    </style>
+</head>
+<body background="pp2.jpg" width="100%">
+    <form action="" method="POST">
+    <h2 align="center"> Formulir pendaftaran Perpustakaan </h2></legend>
+          <label>Nama :</label><br/>
+          <input type="text"  name="fname" placeholder="nama Lengkap"><br/>
+          <label>Jenis Kelamin : </label><br/>
+          <input type="radio"  name="gender" value="laki">
+          <label >Laki-Laki</label>
+          <input type="radio"  name="gender" value="wanita">
+          <label >Perempuan</label>
+          <br/>
+          <label >Tempat Lahir :</label><br/>
+          <input type="text"  name="temlah" placeholder="Tempat Lahir">
+          <br/>
+          <label >Tanggal Lahir :</label><br/>
+          <input type="date" name="tanggal">
+          <br/>
+          <label>Alamat :</label>
+          <br/>
+          <textarea name="alamat"></textarea>
+          <br/>
+          <label>Agama :</label>
+          <br/>
+          <select>
+              <option value="islam">  Islam   </option>
+              <option value="Kristen"> Kristen </option>
+              <option value="Buddha"> Buddha</option>
+              <option value="Hindu"> Hindu </option>
+              <option value="Konghuchu">Konghuchu</option>
+          </select>
+          <br/>
+          <label>Email :</label><br/>
+          <input type="email" name="email" placeholder="anything@mail.com">
+          <br/>
+          <label>Password :</label><br/>
+          <input type="password" name="pass"><br/>
+          <label>No. Identitas (KTP/Kartu Pelajar) :</label><br/>
+          <input type="number" name="nomor">
+         <br/>
+          <input type="file" name="image">
+          <br/>
+          <input type="checkbox" name=" ">
+          <label>Saya menyetujui Semua persyaratan</label>
+          <br>
+          <br>
+          <input type="submit" name="submit">
+</form> 
+</body>
+<footer align="center"><font color="white"> copyright &copy anisa yuniarti </font></footer>
+</html>
